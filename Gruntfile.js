@@ -204,7 +204,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-istanbul');
+    //grunt.loadNpmTasks('grunt-istanbul');
 
     grunt.registerTask('default', ['availabletasks']);
     grunt.registerTask('dev-lint', ['jshint:browser', 'jshint:server']);
